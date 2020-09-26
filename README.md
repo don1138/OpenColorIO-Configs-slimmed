@@ -15,7 +15,7 @@ Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a 
   + The full set of ACES configs from **colour-science/OpenColorIO-Configs** comes in at several Gb. The v1.2 folder is several hundred Mb by itself.
   + The list of Color Spaces is so long, it gets cut off in the dropdown
 
-To make the package smaller and friendler, I reduced the **colormanagement** folder to ~50Mb by:
+So, to make the package smaller and friendler, I reduced the **colormanagement** folder to ~50Mb by:
   + Deleting all Directories except for v1.2
   + Deleting SPI3Ds that are no longer referenced in **config.ocio**
   + Stripping all Colorspaces from **config.ocio** except for:
