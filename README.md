@@ -11,7 +11,7 @@ This is **NOT** intended for prefessional production environments, but for hobby
 
 ## Backstory
 
-Inspired by Mario Cazares' videos (links below) on about using ACES in Blender, I gave it a try, but ran into two inconveniences:
+Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
   + The full set of ACES configs from **colour-science/OpenColorIO-Configs** comes in at several Gb. The v1.2 folder is several hundred Mb by itself.
   + The list of Color Spaces is so long, it gets cut off in the dropdown
 
