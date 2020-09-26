@@ -3,7 +3,9 @@
   + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; **OpenColorIO-Configs** source files are several Gb.
   + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly only use three.
 
-<p style="color:red">This is **NOT** intended for prefessional production environments, but for hobbyists who want to try out ACES.</p>
+***
+
+This is **NOT** intended for prefessional production environments, but for hobbyists who want to try out ACES.
 
 ***
 
