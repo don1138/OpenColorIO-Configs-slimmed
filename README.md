@@ -1,17 +1,25 @@
 # OpenColorIO-Configs > Slimmed for Blender
 **OpenColorIO-Configs Slimmed to the Bare Bones for Blender**
-
-This is **NOT** intended for prefessional production environments, but for hobbyists who want to try out ACES.
+  + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; **OpenColorIO-Configs** source files are several Gb.
+  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly only use three.
 
 ***
 
+This is **NOT** intended for prefessional production environments, but for hobbyists who want a convenient way to try out ACES.
+
+***
+
+## Installation
+
+Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender App Bundle with the one provied. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
+
 ## Backstory
 
-Inspired by Mario Cazares' videos (links below) on about using ACES in Blender, I gave it a try, but ran into two inconveniences:
+Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
   + The full set of ACES configs from **colour-science/OpenColorIO-Configs** comes in at several Gb. The v1.2 folder is several hundred Mb by itself.
   + The list of Color Spaces is so long, it gets cut off in the dropdown
 
-I reduced the **colormanagement** folder to ~50Mb by:
+So, to make the package smaller and friendler, I reduced the **colormanagement** folder to ~50Mb by:
   + Deleting all Directories except for v1.2
   + Deleting SPI3Ds that are no longer referenced in **config.ocio**
   + Stripping all Colorspaces from **config.ocio** except for:
