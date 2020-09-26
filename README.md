@@ -5,7 +5,7 @@
 
 ***
 
-This is **NOT** intended for prefessional use, but for hobbyists who want a convenient way to try out ACES.
+This is **NOT** intended for professional use, but for hobbyists who want a convenient way to try out ACES.
 
 ***
 
