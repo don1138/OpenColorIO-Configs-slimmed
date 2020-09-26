@@ -5,7 +5,7 @@
 
 ***
 
-This is **NOT** intended for prefessional production environments, but for hobbyists who want to try out ACES.
+This is **NOT** intended for prefessional production environments, but for hobbyists who want a more convenient way to try out ACES.
 
 ***
 
