@@ -11,7 +11,7 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Installation
 
-Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender App Bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
+Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender app bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
 
 ## Backstory
 
