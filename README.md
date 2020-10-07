@@ -5,13 +5,13 @@
 
 ***
 
-This is **NOT** intended for prefessional production environments, but for hobbyists who want a convenient way to try out ACES.
+This is **NOT** intended for professional use, but for hobbyists who want a convenient way to try out ACES.
 
 ***
 
 ## Installation
 
-Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender App Bundle with the one provied. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
+Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender App Bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
 
 ## Backstory
 
