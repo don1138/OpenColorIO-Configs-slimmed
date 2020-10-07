@@ -1,7 +1,7 @@
 # OpenColorIO-Configs > Slimmed for Blender
 **OpenColorIO-Configs Slimmed to the Bare Bones for Blender**
   + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; **OpenColorIO-Configs** source files are several Gb.
-  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly only use three.
+  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
 
 ***
 
