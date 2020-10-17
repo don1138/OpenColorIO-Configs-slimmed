@@ -15,7 +15,7 @@ Download these files, and replace the existing **colormanagement** folder *(save
 
 ## Known Conflicts
 
-  + KIT OPS
+  + **KIT OPS** - When inserting a decal, you need to go into the Material and set the color space manually.
 
 ## Backstory
 
