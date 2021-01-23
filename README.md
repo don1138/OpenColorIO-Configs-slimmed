@@ -1,4 +1,4 @@
-# Add a Minimal Set of OpenColorIO (ACES) Configs to Blender Color Management Settings
+# Add a Minimal Set of OpenColorIO (ACES) Configs to Blender's Color Management Settings
 
 ***
 
