@@ -13,7 +13,7 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
   + Add the **aces** folder alongside **filmic** and **luts**.
   + Replace **config.ocio** *(first save a backup copy of the Blender default!)* with the one provided.
   
-  For usage instructions, watch the **Using ACES in Blender | Short Tutorial** video linked below.
+  For usage instructions, watch **[Using ACES in Blender](https://www.youtube.com/watch?v=PkWT7HSEfJY)**.
 
 ## Alternate Option – The Full Set
 
