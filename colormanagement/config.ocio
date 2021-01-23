@@ -45,7 +45,7 @@ displays:
     - !<View> {name: sRGB, colorspace: Output - sRGB}
     - !<View> {name: Rec.2020, colorspace: Output - Rec.2020}
     - !<View> {name: Rec.709, colorspace: Output - Rec.709}
-    - !<View> {name: Raw, colorspace: Utility - Raw}
+    - !<View> {name: Raw, colorspace: Utility - Raw (Non-Color Textures)}
     - !<View> {name: Log, colorspace: Input - ADX - ADX10}
 
 active_displays: [sRGB, XYZ, None, ACES]
@@ -438,6 +438,17 @@ colorspaces:
 
   - !<ColorSpace>
     name: Utility - Raw (Non-Color Textures)
+    family: Utility
+    equalitygroup: Raw
+    bitdepth: 32f
+    description: |
+      The Raw color space
+    isdata: true
+    allocation: uniform
+    allocationvars: [0, 1]
+
+  - !<ColorSpace>
+    name: Utility - Raw
     family: Utility
     equalitygroup: Raw
     bitdepth: 32f
