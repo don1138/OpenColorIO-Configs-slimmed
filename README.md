@@ -1,7 +1,4 @@
-# OpenColorIO-Configs > Slimmed for Blender
-**OpenColorIO-Configs Slimmed to the Bare Bones for Blender**
-  + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; **OpenColorIO-Configs** source files are several Gb.
-  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
+# Add a Minimal Set of OpenColorIO (ACES) Configs to Blender's Color Management Settings
 
 ***
 
@@ -11,17 +8,35 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Installation
 
-Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender app bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
+  + Download these files, and navigate to the **colormanagement** folder inside the Blender app bundle.
+    + on Mac: /Applications/Blender.app/Contents/Resources/2.91/datafiles/colormanagement/
+  + Add the **aces** folder alongside **filmic** and **luts**.
+  + Replace **config.ocio*** *(forst save a backup copy of the Blender default!)* with the one provided.
+  
+  For usage instructions, watch the **Using ACES in Blender | Short Tutorial** video linked below.
 
 ## Known Conflicts
 
-  + **KIT OPS** - When inserting a decal, you need to go into the Material and set the color space manually.
+  + **KIT OPS** - After inserting a decal, you need to go into the Material and set the color space manually.
+  + The Color Picker uses the sRGB model, even in ACES, so your sRGB color values may shift (for example, purples may shift to blue).
+    + To switch to the ACES Color Picker, change line 14 in **config.ocio** to ***color_picking: Output - sRGB***.
+
+## Why A Minimized Set?
+
+  + **Simplified list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
+  + **Faster to D/L:** The full **OpenColorIO-Configs** source files are several Gb.
+  + **Takes up less drive space:** About ~50Mb.
+  
+  + **Note:** Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. If you prefer to use this full set of configs, you can follow the installation instructions shown above, with these changes:
+    + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip)
+    + Rename the **luts** folder (OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts) to **aces**, and copy to **colormanagement**
+    + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement**
 
 ## Backstory
 
 Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
   + The full set of ACES configs from **colour-science/OpenColorIO-Configs** comes in at several Gb. The v1.2 folder is several hundred Mb by itself.
-  + The list of Color Spaces is so long, it gets cut off in the dropdown
+  + The list of Color Spaces is so long, it gets cut off in the dropdown.
 
 So, to make the package smaller and friendler, I reduced the **colormanagement** folder to ~50Mb by:
   + Deleting all Directories except for v1.2
