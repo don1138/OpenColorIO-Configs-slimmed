@@ -11,9 +11,9 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Installation
 
-Download these files, and navigate to the **colormanagement** folder inside the Blender app bundle.
-Add the **aces** folder
-Replace **config.ocio*** with the provided file *(save a backup copy!)*
+  + Download these files, and navigate to the **color management** folder inside the Blender app bundle.
+  + Add the **aces** folder
+  + Replace **config.ocio*** with the provided file *(save a backup copy!)*
 
 with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
 
