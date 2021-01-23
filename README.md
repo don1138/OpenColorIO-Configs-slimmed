@@ -19,7 +19,7 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
   + **KIT OPS** - After inserting a decal, you need to go into the Material and set the color space manually.
   + The Color Picker uses the sRGB model, even in ACES, so your sRGB color values may shift *(for example, purples may shift to blue)*.
-    + To switch to the ACES Color Picker, change line 14 in **config.ocio** to **color_picking: Output - sRGB**.
+    + To switch to the ACES Color Picker, change line 14 in **config.ocio** to `color_picking: Output - sRGB`.
 
 ## Why A Minimized Set?
 
@@ -28,9 +28,9 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
   + **Takes up less drive space:** About ~50Mb.
   
   + **Note:** Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. If you prefer to use this full set of configs, you can follow the installation instructions shown above, with these changes:
-    + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip)
-    + Rename the **luts** folder *(OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts)* to **aces**, and copy to **colormanagement**
-    + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement**
+    + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip).
+    + Rename the **luts** folder *(OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts)* to **aces**, and copy to **colormanagement** folder.
+    + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement** folder.
 
 ## Backstory
 
