@@ -13,6 +13,10 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender app bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
 
+## Known Conflicts
+
+  + **KIT OPS** - When inserting a decal, you need to go into the Material and set the color space manually.
+
 ## Backstory
 
 Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
