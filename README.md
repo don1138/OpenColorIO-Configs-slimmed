@@ -25,8 +25,7 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
   + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
   + **It's faster to d/l, and takes up less drive space:** This package is ~50Mb; The full **OpenColorIO-Configs** source files are several Gb.
-    + Note: Since I created this repo, the folks at Color Science have put out a release that comes to 124mb.
-    + If you prefer to use this full set of configs, you can follow th installation instructins above, with these changes:
+    + Note: Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. If you prefer to use this full set of configs, you can follow the installation instructions shown above, with these changes:
       + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip)
       + Rename the **luts** folder (OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts) to **aces**, and copy to **colormanagement**
       + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement**
