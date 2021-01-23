@@ -9,6 +9,8 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ***
 
+These files add ACES color mode to Blender's Color Management settings.
+
 ## Installation
 
   + Download these files, and navigate to the **color management** folder inside the Blender app bundle.
