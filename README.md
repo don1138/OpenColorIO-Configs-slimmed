@@ -17,7 +17,7 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Known Conflicts
 
-  + **KIT OPS** - After inserting a decal, you need to go into the Material and set the color space manually.
+  + **KIT OPS** - After inserting a decal, you will need to go into the Material and set the color space manually.
   + The Color Picker uses the sRGB model, even in ACES, so your sRGB color values may shift *(for example, purples may shift to blue)*.
     + To switch to the ACES Color Picker, change line 14 in **config.ocio** to `color_picking: Output - sRGB`.
 
