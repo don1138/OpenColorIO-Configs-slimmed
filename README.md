@@ -28,16 +28,14 @@ Shortly after I created this repo, the folks at **Color Science** posted a relea
   + The Color Picker uses the sRGB model, even in ACES, so your sRGB color values may shift *(for example, purples may shift to blue)*.
     + To switch to the ACES Color Picker, change line 14 in **config.ocio** to `color_picking: Output - sRGB`.
 
-## Why A Minimized Set?
+## So, Why Make A Minimized Set?
 
   + **Simplified list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
   + **Faster to D/L:** The full **OpenColorIO-Configs** source files are several Gb.
   + **Takes up less drive space:** About ~50Mb.
   
-## Backstory
-
 Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
-  + The full set of ACES configs from **colour-science/OpenColorIO-Configs** comes in at several Gb. The v1.2 folder is several hundred Mb by itself.
+  + The full repo of ACES configs from **colour-science/OpenColorIO-Configs** is several Gb. The v1.2 folder by itself is several hundred Mb.
   + The list of Color Spaces is so long, it gets cut off in the dropdown.
 
 So, to make the package smaller and friendler, I reduced the **colormanagement** folder to ~50Mb by:
