@@ -1,7 +1,4 @@
-# OpenColorIO-Configs > Slimmed for Blender
-**OpenColorIO-Configs Slimmed to the Bare Bones for Blender**
-  + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; **OpenColorIO-Configs** source files are several Gb.
-  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
+# Add a Minimal Set of OpenColorIO (ACES) Configs to Blender Color Management Settings
 
 ***
 
@@ -9,7 +6,9 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ***
 
-These files add ACES color mode to Blender's Color Management settings.
+## Why A Minimized Set?
+  + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; The full **OpenColorIO-Configs** source files are several Gb.
+  + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
 
 ## Installation
 
