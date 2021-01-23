@@ -8,10 +8,10 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Installation
 
-  + Download these files, and navigate to the **colormanagement** folder inside the Blender app bundle.
+  + Navigate to the **colormanagement** folder inside the Blender app bundle.
     + on Mac: /Applications/Blender.app/Contents/Resources/2.91/datafiles/colormanagement/
   + Add the **aces** folder alongside **filmic** and **luts**.
-  + Replace **config.ocio*** *(first save a backup copy of the Blender default!)* with the one provided.
+  + Replace **config.ocio** *(first save a backup copy of the Blender default!)* with the one provided.
   
   For usage instructions, watch the **Using ACES in Blender | Short Tutorial** video linked below.
 
