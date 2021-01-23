@@ -11,11 +11,17 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 
 ## Installation
 
-Download these files, and replace the existing **colormanagement** folder *(save a backup copy!)* inside the Blender app bundle with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
+Download these files, and navigate to the **colormanagement** folder inside the Blender app bundle.
+Add the **aces** folder
+Replace **config.ocio*** with the provided file *(save a backup copy!)*
+
+with the one provided. For detailed instructions, watch the **Setup ACES in Blender** video linked below.
 
 ## Known Conflicts
 
   + **KIT OPS** - When inserting a decal, you need to go into the Material and set the color space manually.
+  + The Color Picker uses the sRBG model, even in ACES, so your purples may shift to blue.
+    + To switch to the ACES Color Picker, change line 14 in **config.ocio** to ***color_picking: Output - sRGB***
 
 ## Backstory
 
