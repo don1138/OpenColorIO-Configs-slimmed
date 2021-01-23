@@ -1,4 +1,4 @@
-# Add a Minimal Set of OpenColorIO (ACES) Configs to Blender's Color Management Settings
+# Add a Minimal Set of ACES Settings to Blender
 
 ***
 
@@ -15,6 +15,13 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
   
   For usage instructions, watch the **Using ACES in Blender | Short Tutorial** video linked below.
 
+## Alternate Option – The Full Set
+
+Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. If you prefer to use this full set of configs, you can follow the installation instructions shown above, with these changes:
+  + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip).
+  + Rename the **luts** folder *(OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts)* to **aces**, and copy to **colormanagement** folder.
+  + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement** folder.
+
 ## Known Conflicts
 
   + **KIT OPS** - After inserting a decal, you will need to go into the Material and set the color space manually.
@@ -27,11 +34,6 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
   + **Faster to D/L:** The full **OpenColorIO-Configs** source files are several Gb.
   + **Takes up less drive space:** About ~50Mb.
   
-  + **Note:** Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. If you prefer to use this full set of configs, you can follow the installation instructions shown above, with these changes:
-    + Download [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip).
-    + Rename the **luts** folder *(OpenColorIO-Config-ACES-1.2 2/aces_1.2/luts)* to **aces**, and copy to **colormanagement** folder.
-    + Download **aces_1.2_config.ocio** from this repo, rename it to **config.ocio**, and relace the existing file in **colormanagement** folder.
-
 ## Backstory
 
 Inspired by Mario Cazares' videos (links below) on ACES in Blender, I gave it a try, but ran into two inconveniences:
