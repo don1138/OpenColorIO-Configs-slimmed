@@ -7,22 +7,23 @@ This is **NOT** intended for professional use, but for hobbyists who want a conv
 ***
 
 ## Why A Minimized Set?
-  + **Faster to d/l, and takes up less drive space:** This package is ~50Mb; The full **OpenColorIO-Configs** source files are several Gb.
+  + **It's faster to d/l, and takes up less drive space:** This package is ~50Mb; The full **OpenColorIO-Configs** source files are several Gb.
+    + Note: Since I created this repo, the folks at Color Science have put out a release that comes to 124mb. [OpenColorIO Config ACES 1.2](https://github.com/colour-science/OpenColorIO-Configs/releases/download/v1.2/OpenColorIO-Config-ACES-1.2.zip)
   + **Simplifies the list of Color Settings:** From dozens down to 15, of which you'll commonly use only three.
 
 ## Installation
 
   + Download these files, and navigate to the **colormanagement** folder inside the Blender app bundle.
-    + (on Mac: /Applications/Blender.app/Contents/Resources/2.91/datafiles/colormanagement/)
-  + Add the **aces** folder (alongside **filmic** and **luts**)
+    + on Mac: /Applications/Blender.app/Contents/Resources/2.91/datafiles/colormanagement/
+  + Add the **aces** folder alongside **filmic** and **luts**
   + Replace **config.ocio*** with the provided file *(save a backup copy!)* with the one provided.
   
   For usage instructions, watch the **Using ACES in Blender | Short Tutorial** video linked below.
 
 ## Known Conflicts
 
-  + **KIT OPS** - When inserting a decal, you need to go into the Material and set the color space manually.
-  + The Color Picker uses the sRBG model, even in ACES, so your sRGB color values may shift (for example, purples may shift to blue).
+  + **KIT OPS** - After inserting a decal, you need to go into the Material and set the color space manually.
+  + The Color Picker uses the sRGB model, even in ACES, so your sRGB color values may shift (for example, purples may shift to blue).
     + To switch to the ACES Color Picker, change line 14 in **config.ocio** to ***color_picking: Output - sRGB***
 
 ## Backstory
