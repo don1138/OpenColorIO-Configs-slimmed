@@ -2,7 +2,9 @@
 
 ***
 
-This is **NOT** intended for professional use, but for hobbyists who want a convenient way to try out ACES.
+This is **NOT** intended for professional use; it's just me playing around to figure out ACES.
+
+If you want a good practical, slimmed version of ACES to work with in Blender, check out [**Filmic Blender**](https://github.com/sobotka/filmic-blender).
 
 ***
 
@@ -64,6 +66,7 @@ So, to make the package smaller and friendler, I reduced the **colormanagement**
 
 ## Links
   + [OpenColorIO-Configs](https://github.com/colour-science/OpenColorIO-Configs)
+  + [Filmic Blender](https://github.com/sobotka/filmic-blender)
 
 Mario Cazares' videos on adding ACES to Blender
   + [Setup ACES in Blender](https://www.youtube.com/watch?v=B7FWNNDXBl0)
