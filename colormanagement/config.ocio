@@ -19,7 +19,7 @@ roles:
   rendering: Linear
   reference: Linear
   scene_linear: Linear
-  XYZ: XYZ
+  aces_interchange: Linear ACES
 
   # Specifed by OCIO, not used in Blender
   color_timing: Filmic Log
